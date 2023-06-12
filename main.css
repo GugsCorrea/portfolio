@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 32px 0;
+    background-color: #0d214f;
+}
+
+#imagem {
+    background-color: #f5f5f5;
+}
+
+.perfil {
+    position: relative;
+    top: 50px;
+    height: 250px;
+    display: block;
+    margin:  auto;
+}
+
+.home{
+    margin-bottom: 200px;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.container h1{
+    font-weight: 100;
+    font-size: 45px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bold-word {
+    font-weight:900;
+}
+
+.about p{
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace; ;
+}
+
+#sobre{
+    text-align: flex-start;
+}
+
+.container li{
+    display: inline;
+    margin: 0 auto;
+}
+
+.container a img{
+    height: 24px;
+}
+
+.container ul{
+    margin: 10px auto;
+}
+
+.container li a {
+    margin: 0 12px;
+}
+
+.job img {
+    height: 500px;
+}
+
+.job {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f5f5f5;
+    background-size: 10% auto;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+#programacao {
+    position: relative;
+    top: 60px;
+}
+
+.prog h1 {
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    top: 100px;
+}
+
+.prog{
+    position: relative;
+    top: -200px;
+    margin: 0 auto;
+}
+
+.prog img{
+    margin: 0 50px;
+}
+
+#perfil{
+    height: 600px;
+}
+
+.portfolio ul{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.lista1{
+    display: inline;
+    margin: 0 auto;
+}
+
+.portfolio h1{
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #0d214f;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
